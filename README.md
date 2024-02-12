@@ -21,6 +21,7 @@ Welcome to a crash course in building a Lambda function, and setting up a GitHub
 12. Click on `Create user`.
 13. On the User details screen, enter a User name of your choice. We will be setting up this user to allow GitHub push your code directly to your Lambda function. Click `Next`.
 14. On the next screen select `Attach policies directly` then click `Create policy`. This will open a new window where we will create a new custom policy to attach the rights for our user.
+    - **Rights never get attached directly to users. Rights get attached to policies, and then policies can be attached to users or roles.**
 15. In the new window, select the JSON Policy editor and paste in the following:
 ```
 {
